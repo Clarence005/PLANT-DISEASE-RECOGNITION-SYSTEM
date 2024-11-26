@@ -1,0 +1,742 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hello!",
+        "hey",
+        "namaste"
+      ],
+      "responses": [
+        "Hello, thanks for visiting.",
+        "Good to see you.",
+        "Hi there, how can I help?",
+        "hello"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later., thanks for visiting.",
+        "Have a nice day.",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?",
+        "When are you open?"
+      ],
+      "responses": [
+        "We're open every day 9am-9pm.",
+        "Our hours are 9am-9pm every day."
+      ]
+    },
+    {
+      "tag": "buy",
+      "patterns": [
+        "how i can buy crops online?",
+        "how i can buy crops from farmer?"
+      ],
+      "responses": [
+        "Please visit our website https://farmer.gov.in/"
+      ]
+    },
+    {
+      "tag": "sell",
+      "patterns": [
+        "how I can sell crops online?",
+        "how I can sell my crops?",
+        "best way to sell product?",
+        "how farmer can sell their product?"
+      ],
+      "responses": [
+        "Please visit our website https://farmer.gov.in/"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Are you open today?",
+        "When do you open today?",
+        "What are your hours today?"
+      ],
+      "responses": [
+        "We're open every day from 9am-9pm.",
+        "Our hours are 9am-9pm every day."
+      ]
+    },
+    {
+      "tag": "family",
+      "patterns": [
+        "Who is your father?",
+        "What is your father's name?",
+        "What is your mother's name?",
+        "Do you have parents?",
+        "Do you have siblings?"
+      ],
+      "responses": [
+        "i don't have knowledge about my family."
+      ]
+    },
+    {
+      "tag": "sarcasm",
+      "patterns": [
+        "Are you a God?",
+        "How old are you?",
+        "Are you a man?",
+        "Are you a bot?",
+        "Do you have a job?",
+        "Who is your best friend?",
+        "Am I your friend?"
+      ],
+      "responses": [
+        "i'm not able to understand your question.",
+        "Please ask some related questions."
+      ]
+    },
+    {
+      "tag": "wellness",
+      "patterns": [
+        "How are you?",
+        "How you doing?",
+        "How are you doing?",
+        "Are you doing well?",
+        "Are you okay?",
+        "Are you fine?",
+        "Are you doing okay?"
+      ],
+      "responses": [
+        "i'm cool.",
+        "always cool.",
+        "i'm ok.",
+        "i'm fine."
+      ]
+    },
+    {
+      "tag": "enquireaboutday",
+      "patterns": [
+        "How was your day?",
+        "How is your day going?",
+        "How is your day?"
+      ],
+      "responses": [
+        "It's been great.",
+        "It's been good."
+      ]
+    },
+    {
+      "tag": "askinghelp",
+      "patterns": [
+        "I need help!",
+        "Need help!",
+        "Help me please",
+        "Help me",
+        "Can you do something for me?",
+        "Answer my question"
+      ],
+      "responses": [
+        "i'm here to help you.",
+        "i can help you.",
+        "i'm here to solve your queries."
+      ]
+    },
+    {
+      "tag": "outofscope",
+      "patterns": [
+        "Who is the President?",
+        "Who is the Prime Minister?",
+        "What is my mother's name?",
+        "Are you a supporter of BJP?",
+        "Are you active in politics?"
+      ],
+      "responses": [
+        "your question is out of my knowledge.",
+        "i'm not able to answer your question.",
+        "i don't have knowledge about that."
+      ]
+    },
+    {
+      "tag": "marketprice",
+      "patterns": [
+        "What is the market price of rice?",
+        "How much is the cost of 10 kgs of wheat?",
+        "What are the prices of sugarcane?"
+      ],
+      "responses": [
+        "please visit our application.",
+        "please visit our website for more detail.",
+        "i request you to please visit our website."
+      ]
+    },
+    {
+      "tag": "wassup",
+      "patterns": [
+        "Wassup?",
+        "What are you doing?",
+        "What is up with you?",
+        "What are you up to?",
+        "How is it going?"
+      ],
+      "responses": [
+        "i'm just chilling.",
+        "i am enjoying day.",
+        "i'm fine."
+      ]
+    },
+    {
+      "tag": "farmerscheme",
+      "patterns": [
+        "Important government policies for farmer",
+        "indian government scheme for indian farmer",
+        "which scheme is most helpful to indian farmer"
+      ],
+      "responses": [
+        "PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.",
+        "PM-Kisan Scheme,Pradhan Mantri Krishi Sinchai Yojana (PMKSY),etc.",
+        "Pradhan Mantri Kisan Maandhan yojana, Pradhan Mantri Fasal Bima Yojana (PMFBY),etc. for more details please visit our website."
+      ]
+    },
+    {
+      "tag": "farmerpmkisan",
+      "patterns": [
+        "what is PM kisan scheme",
+        "PM kisan",
+        "which are benefits of PM kisan scheme?",
+        "how PM kisan scheme is helpful to people?"
+      ],
+      "responses": [
+        "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector scheme with 100% funding from Government of India. for more details visit pmkisan.gov.in",
+        "please visit our website pmkisan.gov.in",
+        "i request you to please visit our website pmkisan.gov.in",
+        "Under the Scheme an income support of Rs. 6000/- per year is provided to all farmer families across the country in three equal installments of Rs. 2000/- each every four months."
+      ]
+    },
+    {
+      "tag": "appleweather",
+      "patterns": [
+        "Which weather is suitable for apple?",
+        "What is the best temperature for apple growth?",
+        "Ideal climate for growing apples?",
+        "Temperature required for apple crops?",
+        "Weather condition for apple trees?"
+      ],
+      "responses": [
+        "Apples thrive in temperatures between 60°F and 75°F (15°C to 24°C).",
+        "Cool climates with adequate sunlight are ideal for apple growth.",
+        "Apples grow best in areas with cold winters and moderate summers."
+      ]
+    },
+    {
+      "tag": "applecondition",
+      "patterns": [
+        "Which condition is suitable for apple crop?",
+        "Ideal conditions for apple production?",
+        "What is needed for apples to grow well?",
+        "Growing conditions for apples?"
+      ],
+      "responses": [
+        "Apple trees require well-drained soil with a pH of 6.0 to 7.0.",
+        "Cold winters are necessary for the dormancy period, which improves fruiting.",
+        "Adequate sunlight and proper pruning help apples grow better."
+      ]
+    },
+    {
+      "tag": "cornweather",
+      "patterns": [
+        "What is the best temperature for corn?",
+        "Corn grows in which temperature?",
+        "Ideal weather conditions for corn?",
+        "Temperature required for corn crop?"
+      ],
+      "responses": [
+        "Corn grows best in temperatures between 60°F and 95°F (15°C to 35°C).",
+        "Warm weather and plenty of sunshine are ideal for corn.",
+        "Corn requires consistent temperatures for uniform growth."
+      ]
+    },
+    {
+      "tag": "corncondition",
+      "patterns": [
+        "Which condition is suitable for corn?",
+        "What are the conditions for growing corn?",
+        "Best soil and weather for corn growth?",
+        "Corn growing conditions?"
+      ],
+      "responses": [
+        "Corn requires fertile, well-drained soil with a pH of 6.0 to 7.5.",
+        "Moist soil during germination is critical for good yields.",
+        "Full sunlight is essential for corn growth."
+      ]
+    },
+    {
+      "tag": "potatoweather",
+      "patterns": [
+        "Which weather is suitable for potatoes?",
+        "Temperature required for potato crop?",
+        "Ideal weather for potato growth?",
+        "What temperature is best for growing potatoes?"
+      ],
+      "responses": [
+        "Potatoes grow best in temperatures between 60°F and 70°F (15°C to 21°C).",
+        "Cool climates with moderate rainfall are ideal for potatoes.",
+        "Potatoes prefer a frost-free growing season."
+      ]
+    },
+    {
+      "tag": "potatocondition",
+      "patterns": [
+        "Which condition is required for potato crop?",
+        "Ideal soil for growing potatoes?",
+        "What are the growing conditions for potatoes?",
+        "Conditions suitable for potato farming?"
+      ],
+      "responses": [
+        "Potatoes need well-drained, loose soil rich in organic matter.",
+        "Avoid waterlogging as it can cause rot in potato crops.",
+        "They grow well in slightly acidic soil with a pH of 5.0 to 6.5."
+      ]
+    },
+    {
+      "tag": "tomatoweather",
+      "patterns": [
+        "Which weather is suitable for tomatoes?",
+        "Temperature for tomato growth?",
+        "Best climate for growing tomatoes?",
+        "What weather do tomatoes grow best in?"
+      ],
+      "responses": [
+        "Tomatoes grow well in temperatures between 65°F and 85°F (18°C to 29°C).",
+        "Warm weather with plenty of sunlight is ideal for tomatoes.",
+        "They require frost-free conditions to thrive."
+      ]
+    },
+    {
+      "tag": "tomatocondition",
+      "patterns": [
+        "What are the conditions required for tomatoes?",
+        "Ideal growing conditions for tomatoes?",
+        "What do tomatoes need to grow well?",
+        "Conditions for tomato farming?"
+      ],
+      "responses": [
+        "Tomatoes need well-drained, fertile soil with a pH of 6.0 to 6.8.",
+        "They require consistent watering but avoid overwatering to prevent root rot.",
+        "Adequate sunlight is crucial for healthy growth."
+      ]
+    },
+    {
+      "tag": "pepperweather",
+      "patterns": [
+        "What is the best weather for growing peppers?",
+        "Temperature for pepper crops?",
+        "Ideal climate for growing peppers?",
+        "What temperature do peppers grow best in?"
+      ],
+      "responses": [
+        "Peppers grow best in temperatures between 70°F and 85°F (21°C to 29°C).",
+        "Warm weather with no frost is ideal for peppers.",
+        "Plenty of sunlight and moderate humidity support pepper growth."
+      ]
+    },
+    {
+      "tag": "peppercondition",
+      "patterns": [
+        "What are the growing conditions for peppers?",
+        "Ideal soil for pepper plants?",
+        "Conditions required for pepper farming?",
+        "Best environment for peppers?"
+      ],
+      "responses": [
+        "Peppers need well-drained, fertile soil with a pH of 6.0 to 6.5.",
+        "Consistent moisture levels are essential but avoid waterlogging.",
+        "Full sunlight is necessary for optimal growth."
+      ]
+    },
+    {
+      "tag": "grapeweather",
+      "patterns": [
+        "Which weather is best for grapes?",
+        "Temperature required for grape cultivation?",
+        "Ideal climate for growing grapes?",
+        "What weather do grapes grow best in?"
+      ],
+      "responses": [
+        "Grapes grow well in temperatures between 60°F and 85°F (15°C to 29°C).",
+        "They thrive in warm, dry climates with plenty of sunlight.",
+        "Grapes need a frost-free growing season."
+      ]
+    },
+    {
+      "tag": "grapecondition",
+      "patterns": [
+        "What are the conditions for growing grapes?",
+        "Ideal soil for grapevines?",
+        "Growing conditions for grapes?",
+        "Best environment for grape farming?"
+      ],
+      "responses": [
+        "Grapes need well-drained soil with a pH of 5.5 to 6.5.",
+        "They require good air circulation and moderate watering.",
+        "Pruning is essential to ensure healthy grape production."
+      ]
+    },
+    {
+      "tag": "strawberryweather",
+      "patterns": [
+        "What weather is suitable for strawberries?",
+        "Temperature required for strawberry growth?",
+        "Ideal climate for strawberry farming?",
+        "Best weather for strawberries?"
+      ],
+      "responses": [
+        "Strawberries grow best in temperatures between 60°F and 80°F (15°C to 27°C).",
+        "Cool climates with full sunlight are ideal for strawberries.",
+        "They prefer mild winters and moderate summers."
+      ]
+    },
+    {
+      "tag": "strawberrycondition",
+      "patterns": [
+        "What are the growing conditions for strawberries?",
+        "Ideal soil for strawberry plants?",
+        "Conditions required for strawberries?",
+        "Best environment for strawberry farming?"
+      ],
+      "responses": [
+        "Strawberries need well-drained, sandy soil with a pH of 5.5 to 6.5.",
+        "Consistent watering is necessary, especially during fruiting.",
+        "Full sunlight ensures better fruit quality and yield."
+      ]
+    },
+    {
+      "tag": "harvestingtips",
+      "patterns": [
+        "When should I harvest my crops?",
+        "Best time for harvesting crops?",
+        "Tips for better harvest?",
+        "How to know if crops are ready for harvesting?"
+      ],
+      "responses": [
+        "Harvest crops when they reach full maturity for better quality.",
+        "Check the color, size, and texture of fruits and vegetables before harvesting.",
+        "Use proper tools and handle crops carefully to avoid damage."
+      ]
+    },
+    {
+      "tag": "applegrowth",
+      "patterns": [
+        "How can I improve the growth of apple trees?",
+        "Tips for better apple production?",
+        "How to boost apple growth?",
+        "What can I do to increase apple yield?"
+      ],
+      "responses": [
+        "Ensure apple trees are planted in well-drained soil with adequate sunlight exposure.",
+        "Regular pruning promotes better air circulation and healthier fruit production.",
+        "Irrigate apple trees consistently but avoid waterlogging. Mulching helps retain soil moisture.",
+        "Apply balanced fertilizers, including nitrogen, phosphorus, and potassium, during the growing season."
+      ]
+    },
+    {
+      "tag": "corngrowth",
+      "patterns": [
+        "How can I improve the growth of corn?",
+        "Tips for better corn production?",
+        "How to boost corn plant growth?",
+        "What can I do to increase corn yield?"
+      ],
+      "responses": [
+        "Corn requires full sunlight and temperatures between 60°F and 95°F (15°C to 35°C) for optimal growth.",
+        "Ensure the soil is well-drained and rich in organic matter. Fertilize with nitrogen for healthy growth.",
+        "Irrigate corn consistently, especially during tasseling and silking stages, to support grain formation.",
+        "Regularly monitor for pests and diseases and use appropriate control measures when needed."
+      ]
+    },
+    {
+      "tag": "potatogrowth",
+      "patterns": [
+        "How can I improve the growth of potatoes?",
+        "Tips for better potato production?",
+        "How to boost potato plant growth?",
+        "What can I do to increase potato yield?"
+      ],
+      "responses": [
+        "Plant potatoes in loose, well-drained soil rich in organic matter with a slightly acidic pH of 5.0 to 6.5.",
+        "Maintain consistent soil moisture but avoid overwatering to prevent tuber rot.",
+        "Hill soil around potato plants to protect tubers from sunlight and encourage root development.",
+        "Apply balanced fertilizers, especially those rich in potassium and phosphorus, during the growing period."
+      ]
+    },
+    {
+      "tag": "tomatogrowth",
+      "patterns": [
+        "How can I improve the growth of tomatoes?",
+        "Tips for better tomato production?",
+        "How to boost tomato plant growth?",
+        "What can I do to increase tomato yield?"
+      ],
+      "responses": [
+        "Plant tomatoes in well-drained, fertile soil with plenty of sunlight exposure.",
+        "Support plants with stakes or cages to prevent fruit from touching the ground and reduce diseases.",
+        "Irrigate tomatoes consistently, keeping soil evenly moist, but avoid overwatering to prevent root rot.",
+        "Fertilize with a balanced fertilizer high in potassium and phosphorus to enhance fruit development."
+      ]
+    },
+    {
+      "tag": "peppergrowth",
+      "patterns": [
+        "How can I improve the growth of peppers?",
+        "Tips for better pepper production?",
+        "How to boost pepper plant growth?",
+        "What can I do to increase pepper yield?"
+      ],
+      "responses": [
+        "Peppers grow best in well-drained, fertile soil with a pH of 6.0 to 6.5 and full sunlight.",
+        "Keep the soil consistently moist, especially during flowering and fruiting stages, but avoid waterlogging.",
+        "Apply fertilizers rich in potassium and phosphorus during flowering to promote better fruiting.",
+        "Use mulch to retain soil moisture and suppress weed growth."
+      ]
+    },
+    {
+      "tag": "grapegrowth",
+      "patterns": [
+        "How can I improve the growth of grapes?",
+        "Tips for better grape production?",
+        "How to boost grapevine growth?",
+        "What can I do to increase grape yield?"
+      ],
+      "responses": [
+        "Plant grapes in well-drained soil with a pH of 5.5 to 6.5 and ensure they receive full sunlight.",
+        "Provide a trellis or support system to allow grapevines to grow properly and enhance air circulation.",
+        "Prune vines annually to remove old wood and encourage new growth and fruit production.",
+        "Fertilize with nitrogen in early spring and potassium during the fruiting period for better yields."
+      ]
+    },
+    {
+      "tag": "strawberrygrowth",
+      "patterns": [
+        "How can I improve the growth of strawberries?",
+        "Tips for better strawberry production?",
+        "How to boost strawberry plant growth?",
+        "What can I do to increase strawberry yield?"
+      ],
+      "responses": [
+        "Plant strawberries in well-drained, sandy soil rich in organic matter with a pH of 5.5 to 6.5.",
+        "Ensure strawberries receive at least 6-8 hours of direct sunlight daily for optimal growth.",
+        "Irrigate regularly to keep the soil consistently moist but not soggy, especially during fruiting.",
+        "Apply balanced fertilizers high in potassium and phosphorus to support fruit development."
+      ]
+    },
+    {
+      "tag": "applepesticide",
+      "patterns": [
+        "What pesticides are used for apple trees?",
+        "How to protect apples from pests?",
+        "Best pesticide for apple production?",
+        "Apple pest control tips?"
+      ],
+      "responses": [
+        "Use horticultural oils or insecticidal soap to control aphids and spider mites on apple trees.",
+        "Apply sulfur-based fungicides to manage apple scab and powdery mildew.",
+        "For codling moths, consider pheromone traps or Bacillus thuringiensis (Bt)."
+      ]
+    },
+    {
+      "tag": "applefertilizer",
+      "patterns": [
+        "What fertilizer is best for apples?",
+        "Which nutrients do apple trees need?",
+        "How to fertilize apple trees?",
+        "Best fertilizer for apple production?"
+      ],
+      "responses": [
+        "Apple trees benefit from fertilizers rich in nitrogen during the early growing season and phosphorus and potassium during fruit development.",
+        "Use well-rotted manure or compost for organic nutrition and balanced synthetic fertilizers like 10-10-10 for optimal results."
+      ]
+    },
+    {
+      "tag": "cornpesticide",
+      "patterns": [
+        "What pesticides are used for corn?",
+        "How to protect corn from pests?",
+        "Best pesticide for corn production?",
+        "Corn pest control tips?"
+      ],
+      "responses": [
+        "Use pyrethroid-based pesticides for controlling corn borers and armyworms.",
+        "Neem oil or insecticidal soaps are effective for managing aphids in corn crops.",
+        "Consider biological controls like Trichogramma wasps to reduce pest populations naturally."
+      ]
+    },
+    {
+      "tag": "cornfertilizer",
+      "patterns": [
+        "What fertilizer is best for corn?",
+        "Which nutrients do corn crops need?",
+        "How to fertilize corn plants?",
+        "Best fertilizer for corn production?"
+      ],
+      "responses": [
+        "Corn requires nitrogen-rich fertilizers for vigorous growth. Side-dress nitrogen during the tasseling stage for better yields.",
+        "Apply phosphorus and potassium during soil preparation to encourage root development and grain production."
+      ]
+    },
+    {
+      "tag": "potatopesticide",
+      "patterns": [
+        "What pesticides are used for potatoes?",
+        "How to protect potatoes from pests?",
+        "Best pesticide for potato production?",
+        "Potato pest control tips?"
+      ],
+      "responses": [
+        "Control Colorado potato beetles with spinosad-based insecticides or neem oil.",
+        "To prevent aphids, use insecticidal soaps or horticultural oils.",
+        "Manage fungal diseases like late blight with copper-based fungicides."
+      ]
+    },
+    {
+      "tag": "potatofertilizer",
+      "patterns": [
+        "What fertilizer is best for potatoes?",
+        "Which nutrients do potato crops need?",
+        "How to fertilize potato plants?",
+        "Best fertilizer for potato production?"
+      ],
+      "responses": [
+        "Potatoes benefit from fertilizers high in potassium and phosphorus during tuber development.",
+        "Use a balanced NPK fertilizer like 10-20-20 or apply well-rotted manure for organic growth."
+      ]
+    },
+    {
+      "tag": "tomatopesticide",
+      "patterns": [
+        "What pesticides are used for tomatoes?",
+        "How to protect tomatoes from pests?",
+        "Best pesticide for tomato production?",
+        "Tomato pest control tips?"
+      ],
+      "responses": [
+        "Use neem oil or insecticidal soap to control aphids and whiteflies on tomato plants.",
+        "Apply copper-based fungicides to manage blight and powdery mildew.",
+        "For cutworms, use Bacillus thuringiensis (Bt) or set up physical barriers around plants."
+      ]
+    },
+    {
+      "tag": "tomatofertilizer",
+      "patterns": [
+        "What fertilizer is best for tomatoes?",
+        "Which nutrients do tomato crops need?",
+        "How to fertilize tomato plants?",
+        "Best fertilizer for tomato production?"
+      ],
+      "responses": [
+        "Tomatoes require balanced fertilizers high in phosphorus and potassium, such as 5-10-10.",
+        "Add compost or well-rotted manure to enhance soil fertility before planting."
+      ]
+    },
+    {
+      "tag": "pepperpesticide",
+      "patterns": [
+        "What pesticides are used for peppers?",
+        "How to protect peppers from pests?",
+        "Best pesticide for pepper production?",
+        "Pepper pest control tips?"
+      ],
+      "responses": [
+        "Control aphids and spider mites on peppers with neem oil or insecticidal soap.",
+        "Use copper-based fungicides to manage fungal diseases like anthracnose.",
+        "For thrips, consider spinosad-based insecticides or reflective mulches to deter them."
+      ]
+    },
+    {
+      "tag": "pepperfertilizer",
+      "patterns": [
+        "What fertilizer is best for peppers?",
+        "Which nutrients do pepper crops need?",
+        "How to fertilize pepper plants?",
+        "Best fertilizer for pepper production?"
+      ],
+      "responses": [
+        "Peppers thrive with fertilizers rich in potassium and phosphorus. Use a balanced NPK fertilizer like 5-10-10.",
+        "Supplement with calcium nitrate to prevent blossom-end rot."
+      ]
+    },
+    {
+      "tag": "grapepesticide",
+      "patterns": [
+        "What pesticides are used for grapes?",
+        "How to protect grapes from pests?",
+        "Best pesticide for grape production?",
+        "Grape pest control tips?"
+      ],
+      "responses": [
+        "Apply sulfur-based fungicides to control powdery mildew and other fungal diseases on grapes.",
+        "Use spinosad-based insecticides for grape berry moth and leafhopper infestations.",
+        "Neem oil is effective for managing spider mites and aphids on grapevines."
+      ]
+    },
+    {
+      "tag": "grapefertilizer",
+      "patterns": [
+        "What fertilizer is best for grapes?",
+        "Which nutrients do grapevines need?",
+        "How to fertilize grapevines?",
+        "Best fertilizer for grape production?"
+      ],
+      "responses": [
+        "Grapevines benefit from fertilizers with a higher nitrogen content in early spring, such as 10-5-5.",
+        "Apply potassium-rich fertilizers during fruiting to enhance grape quality."
+      ]
+    },
+    {
+      "tag": "strawberrypesticide",
+      "patterns": [
+        "What pesticides are used for strawberries?",
+        "How to protect strawberries from pests?",
+        "Best pesticide for strawberry production?",
+        "Strawberry pest control tips?"
+      ],
+      "responses": [
+        "Control spider mites and aphids with neem oil or insecticidal soap.",
+        "Use copper-based fungicides to manage fungal diseases like botrytis (gray mold).",
+        "For slugs, apply iron phosphate baits around strawberry plants."
+      ]
+    },
+    {
+      "tag": "strawberryfertilizer",
+      "patterns": [
+        "What fertilizer is best for strawberries?",
+        "Which nutrients do strawberry plants need?",
+        "How to fertilize strawberry plants?",
+        "Best fertilizer for strawberry production?"
+      ],
+      "responses": [
+        "Strawberries require balanced fertilizers rich in potassium and phosphorus, such as 10-10-10 or 5-10-10.",
+        "Apply compost or well-rotted manure to improve soil fertility before planting."
+      ]
+    }
+  ]
+}
